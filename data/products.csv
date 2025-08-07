@@ -1,0 +1,231 @@
+id,name,category,carbon_score,water_score,plastic_score
+1,Reusable Stainless Steel Water Bottle,Water Bottle,1,1,1
+2,Glass Water Bottle,Water Bottle,1,1,1
+3,Collapsible Silicone Water Bottle,Water Bottle,1,1,1
+4,Insulated Travel Mug,Water Bottle,1,1,1
+5,Bamboo Water Bottle,Water Bottle,1,1,1
+6,Bamboo Toothbrush,Toothbrush,1,1,1
+7,Electric Toothbrush,Toothbrush,2,2,2
+8,Charcoal Toothbrush,Toothbrush,1,1,1
+9,Travel Toothbrush,Toothbrush,1,1,1
+10,Silicone Toothbrush,Toothbrush,1,1,1
+11,Cloth Shopping Bags,Shopping Bag,1,1,1
+12,Reusable Canvas Tote Bag,Shopping Bag,1,1,1
+13,Jute Shopping Bag,Shopping Bag,1,1,1
+14,Recycled Plastic Shopping Bag,Shopping Bag,1,1,2
+15,Foldable Shopping Bags,Shopping Bag,1,1,1
+16,Compostable Phone Case,Phone Case,2,2,1
+17,Recycled Plastic Phone Case,Phone Case,2,2,1
+18,Bamboo Phone Case,Phone Case,2,2,1
+19,Leather Phone Case,Phone Case,2,2,2
+20,Silicone Phone Case,Phone Case,1,1,2
+21,Biodegradable Trash Bags,Trash Bag,2,2,1
+22,Compostable Trash Bags,Trash Bag,2,2,1
+23,Recycled Plastic Trash Bags,Trash Bag,2,3,2
+24,Kitchen Waste Bags,Trash Bag,1,2,1
+25,Heavy Duty Trash Bags,Trash Bag,2,2,2
+26,Electric Toothbrush with Rechargeable Battery,Toothbrush,2,2,2
+27,Sonic Electric Toothbrush,Toothbrush,2,2,2
+28,UV Sanitizing Electric Toothbrush,Toothbrush,2,2,2
+29,Smart Electric Toothbrush with App Integration,Toothbrush,2,2,2
+30,Replacement Brush Heads for Electric Toothbrush,Toothbrush,1,1,1
+31,Recycled Paper Towels,Paper Towel,2,3,2
+32,Bamboo Paper Towels,Paper Towel,2,3,1
+33,Cloth Paper Towels,Paper Towel,1,1,1
+34,Unbleached Paper Towels,Paper Towel,1,1,1
+35,Eco-friendly Paper Towels,Paper Towel,1,1,1
+36,Organic Cotton Bed Sheets,Bedsheet,1,2,2
+37,Bamboo Bed Sheets,Bedsheet,1,1,2
+38,Linen Bed Sheets,Bedsheet,1,1,2
+39,Hemp Bed Sheets,Bedsheet,1,2,2
+40,Recycled Fabric Bed Sheets,Bedsheet,2,2,1
+41,Bamboo Cutlery Set,Cutlery Set,1,1,1
+42,Stainless Steel Cutlery Set,Cutlery Set,1,1,1
+43,Recycled Plastic Cutlery Set,Cutlery Set,2,2,2
+44,Wooden Cutlery Set,Cutlery Set,1,1,1
+45,Titanium Cutlery Set,Cutlery Set,1,1,1
+46,Plant-Based Cleaning Products,Cleaning Product,1,1,2
+47,Organic All-Purpose Cleaner,Cleaning Product,1,1,2
+48,Natural Glass Cleaner,Cleaning Product,1,1,2
+49,Organic Bathroom Cleaner,Cleaning Product,1,1,2
+50,Non-toxic Floor Cleaner,Cleaning Product,1,1,2
+51,Eco-friendly Laundry Detergent,Laundry Detergent,2,2,2
+52,Plant-Based Laundry Detergent Pods,Laundry Detergent,2,2,2
+53,Natural Powdered Laundry Detergent,Laundry Detergent,2,2,1
+54,Biodegradable Laundry Soap Sheets,Laundry Detergent,1,1,1
+55,Organic Liquid Laundry Detergent,Laundry Detergent,1,1,1
+56,Solar-Powered Charger,Charger,1,1,3
+57,Wireless Charger,Charger,1,1,2
+58,Biodegradable Phone Charger Cable,Charger,1,2,1
+59,USB-C Eco Charging Cable,Charger,1,1,2
+60,Energy-Efficient Phone Charger,Charger,1,1,3
+61,Beeswax Food Wrap,Food Wrap,1,1,1
+62,Silicone Food Wrap,Food Wrap,1,1,1
+63,Reusable Plastic Wrap Alternative,Food Wrap,1,1,1
+64,Compostable Food Wraps,Food Wrap,1,1,1
+65,Fabric Food Wrap,Food Wrap,1,1,1
+66,Recycled Paper Notebooks,Notebook,2,3,1
+67,Eco-friendly Journals,Notebook,1,1,1
+68,Plantable Seed Paper Notebooks,Notebook,1,1,1
+69,Bamboo Paper Notebooks,Notebook,1,1,1
+70,Recycled Cardboard Notebooks,Notebook,1,1,1
+71,LED Light Bulbs,Light Bulb,1,1,3
+72,Compact Fluorescent Light Bulbs,Light Bulb,1,1,3
+73,Solar-Powered Light Bulbs,Light Bulb,1,1,3
+74,Smart LED Light Bulbs,Light Bulb,1,1,3
+75,Dimmable LED Bulbs,Light Bulb,1,1,3
+76,Reusable Coffee Cup,Coffee Cup,1,1,1
+77,Travel Mug,Coffee Cup,1,1,1
+78,Insulated Coffee Cup,Coffee Cup,1,1,1
+79,Bamboo Coffee Cup,Coffee Cup,1,1,1
+80,Glass Coffee Cup,Coffee Cup,1,1,1
+81,Organic Cotton Clothing,Clothing,1,2,2
+82,Hemp Clothing,Clothing,1,2,2
+83,Recycled Polyester Clothing,Clothing,2,3,2
+84,Bamboo Fabric Clothing,Clothing,1,1,1
+85,Vegan Leather Clothing,Clothing,2,3,2
+86,Glass Storage Containers,Storage Container,1,1,1
+87,Stainless Steel Food Storage Containers,Storage Container,1,1,1
+88,Silicone Food Storage Bags,Storage Container,1,1,1
+89,Recycled Plastic Storage Containers,Storage Container,2,3,2
+90,Wooden Storage Bins,Storage Container,1,2,1
+91,Plant-Based Meat Alternatives,Meat Alternative,1,2,1
+92,Vegan Sausages,Meat Alternative,1,2,1
+93,Tofu and Tempeh,Meat Alternative,1,1,1
+94,Seitan (Wheat Meat),Meat Alternative,1,1,1
+95,Jackfruit Meat Substitute,Meat Alternative,1,1,1
+96,Compostable Plate Set,Plate Set,2,2,1
+97,Bamboo Plate Set,Plate Set,1,1,1
+98,Recycled Paper Plate Set,Plate Set,1,1,1
+99,Melamine Plate Set,Plate Set,1,1,2
+100,Biodegradable Palm Leaf Plates,Plate Set,2,2,1
+101,Electric Car,Car,1,1,3
+102,Hybrid Car,Car,1,1,3
+103,Hydrogen Fuel Cell Car,Car,1,1,3
+104,Car with Solar Roof,Car,1,1,2
+105,Car with Recycled Materials,Car,1,1,2
+106,Refillable Deodorant,Deodorant,2,2,1
+107,Organic Deodorant Stick,Deodorant,1,1,1
+108,Aluminum-Free Deodorant,Deodorant,1,1,1
+109,Natural Roll-On Deodorant,Deodorant,1,1,1
+110,Biodegradable Deodorant,Deodorant,1,1,1
+111,Organic Tea Bags,Tea,1,1,1
+112,Loose Leaf Herbal Tea,Tea,1,1,1
+113,Green Tea,Tea,1,1,1
+114,Compostable Tea Pods,Tea,1,1,1
+115,Matcha Tea Powder,Tea,1,1,1
+116,Water-Saving Showerhead,Showerhead,1,1,3
+117,Filtered Showerhead,Showerhead,1,1,2
+118,Rainfall Showerhead,Showerhead,1,1,3
+119,Adjustable Showerhead,Showerhead,1,1,2
+120,Eco-Friendly Showerhead,Showerhead,1,1,3
+121,Recycled Plastic Outdoor Furniture,Furniture,2,3,2
+122,Bamboo Furniture,Furniture,1,1,1
+123,Upcycled Wooden Furniture,Furniture,1,1,1
+124,Reclaimed Wood Furniture,Furniture,1,1,1
+125,Organic Cotton Upholstered Furniture,Furniture,1,2,1
+126,Non-Toxic Makeup,Makeup,2,2,2
+127,Organic Foundation,Makeup,2,1,1
+128,Vegan Lipstick,Makeup,1,1,1
+129,Eco-friendly Mascara,Makeup,1,1,1
+130,Mineral Blush,Makeup,1,1,1
+131,Compostable Pet Waste Bags,Pet Waste Bag,2,2,1
+132,Recycled Plastic Pet Waste Bags,Pet Waste Bag,2,3,2
+133,Biodegradable Poop Bags,Pet Waste Bag,2,2,1
+134,Dog Poop Bag Dispenser,Pet Waste Bag,1,1,1
+135,Plant-Based Pet Waste Bags,Pet Waste Bag,2,2,1
+136,Eco-Friendly Dish Soap,Dish Soap,1,1,2
+137,Concentrated Dish Soap,Dish Soap,1,1,1
+138,Recycled Plastic Dish Soap Bottle,Dish Soap,2,3,1
+139,Biodegradable Dish Soap,Dish Soap,1,1,1
+140,Plant-Based Dish Soap,Dish Soap,1,1,2
+141,Electric Kettle with Energy Efficiency,Kettle,1,1,2
+142,Stainless Steel Kettle,Kettle,1,1,1
+143,Glass Electric Kettle,Kettle,1,1,1
+144,Solar-Powered Kettle,Kettle,1,1,3
+145,Gooseneck Kettle,Kettle,1,1,2
+146,Recycled Plastic Water Bottle,Water Bottle,2,2,2
+147,Stainless Steel Insulated Water Bottle,Water Bottle,1,1,1
+148,BPA-Free Water Bottle,Water Bottle,1,1,1
+149,Glass Water Bottle with Bamboo Lid,Water Bottle,1,1,1
+150,Collapsible Silicone Water Bottle,Water Bottle,1,1,1
+151,Cloth Diapers,Diaper,1,1,1
+152,Biodegradable Diapers,Diaper,1,1,1
+153,Organic Cotton Diapers,Diaper,1,1,1
+154,Reusable Diapers,Diaper,1,1,1
+155,Hybrid Diapers,Diaper,1,1,1
+156,Bamboo Toilet Paper,Toilet Paper,1,2,1
+157,Recycled Toilet Paper,Toilet Paper,1,2,1
+158,Compostable Toilet Paper,Toilet Paper,1,2,1
+159,Eco-friendly Toilet Paper Rolls,Toilet Paper,1,2,1
+160,Unbleached Toilet Paper,Toilet Paper,1,2,1
+161,Reusable Cotton Rounds,Cotton Round,1,1,1
+162,Organic Cotton Rounds,Cotton Round,1,1,1
+163,Bamboo Cotton Rounds,Cotton Round,1,1,1
+164,Biodegradable Cotton Pads,Cotton Round,1,1,1
+165,Recycled Cotton Rounds,Cotton Round,1,1,1
+166,Compostable Wet Wipes,Wet Wipe,2,2,1
+167,Organic Baby Wet Wipes,Wet Wipe,1,1,1
+168,Eco-Friendly Wet Wipes (for adults),Wet Wipe,1,1,1
+169,Plant-Based Wet Wipes,Wet Wipe,1,1,1
+170,Biodegradable Scrub Sponges,Sponges,1,1,1
+171,Shampoo Bar,Hair Care,3,2,1
+172,Organic Towel,Towel,2,2,1
+173,Reusable Notepad,Stationery,1,1,0
+174,Organic Coconut Oil,Beauty,2,3,1
+175,Raw Honey,Beauty,1,2,0
+176,Apple Cider Vinegar,Beauty,2,1,0
+177,Organic Spices,Food,1,2,0
+178,Reusable Baking Mat,Kitchen,1,1,0
+179,100% Pure Essential Oil,Beauty,2,2,0
+180,Ultrasonic Essential Oil Diffuser,Home,3,2,1
+181,Organic Coconut Flour,Food,1,3,0
+182,Non-Toxic Nail Polish,Beauty,2,2,1
+183,Glass Storage Jar,Home,1,1,0
+184,Bamboo Dish Brush,Kitchen,1,1,0
+185,Soy Wax Candle,Home,2,2,1
+186,Reusable Ice Pack,Kitchen,1,1,0
+187,Recyclable Aluminum Foil,Kitchen,3,2,2
+188,Organic Shampoo,Hair Care,3,2,1
+189,Plastic-Free Hair Care Set,Hair Care,2,3,0
+190,Organic Sea Salt,Food,1,1,0
+191,Organic Pepper,Food,1,1,0
+192,Biodegradable Coffee Pod,Food,2,2,1
+193,Recycled Wrapping Paper,Stationery,1,1,0
+194,Recycled Glass Jar,Home,1,1,0
+195,Fluoride-Free Toothpaste,Toothpaste,2,2,1
+196,Organic Soap Bar,Soap,2,2,0
+197,Zero-Waste Soap Bar,Soap,1,1,0
+198,Bamboo Charcoal Soap,Soap,2,2,0
+199,Plant-Based Soap,Soap,1,2,0
+200,Shea Butter Soap,Soap,2,3,0
+201,Bamboo Toothbrush,Toothbrush,1,1,0
+202,Electric Toothbrush with Rechargeable Battery,Toothbrush,2,2,2
+203,Recyclable Toothpaste Tube,Toothpaste,1,1,1
+204,Compostable Cotton Swabs,Beauty,1,1,0
+205,Bamboo Cotton Pads,Beauty,1,1,0
+206,Reusable Coffee Cup,Kitchen,1,1,0
+207,Stainless Steel Straws,Kitchen,1,1,0
+208,Cloth Napkins,Kitchen,2,1,0
+209,Stainless Steel Water Bottle,Kitchen,1,1,0
+210,Bamboo Cutlery Set,Kitchen,1,1,0
+211,Beeswax Food Wraps,Kitchen,1,1,0
+212,Glass or Stainless Steel Containers,Kitchen,1,1,0
+213,Non-Toxic Cleaning Spray,Home,2,2,1
+214,Compostable Trash Bags,Home,2,1,0
+215,Refillable Cleaning Bottles,Home,2,1,0
+216,Eco-Friendly Laundry Detergent,Home,2,3,1
+217,Organic Cotton Bedding,Home,3,2,1
+218,LED Bulbs,Home,2,1,0
+219,Bamboo Toilet Paper,Home,1,2,0
+220,Plant-Based Garbage Bags,Home,2,2,0
+221,Organic Cotton Face Masks,Beauty,2,2,1
+222,Glass Spray Bottle,Home,1,1,0
+223,Plant-Based Nail Polish Remover,Beauty,2,2,1
+224,Compostable Diapers,Personal Care,3,3,0
+225,Organic Lip Balm,Beauty,1,2,0
+226,Recycled Plastic Yarn,Craft,1,2,2
+227,Eco-Friendly Yoga Mat,Fitness,2,2,1
+228,Organic Herbal Tea,Food,1,1,0
+229,Recycled Paper,Stationery,1,1,0
+230,Electric Food Dehydrator,Kitchen,3,2,2

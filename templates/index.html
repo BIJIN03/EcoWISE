@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EcoWISE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f4f3;
+        margin: 0;
+        padding: 0;
+      }
+      .chat-container {
+        width: 60%;
+        height: 70vh;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px #ccc;
+      }
+      h2{
+        text-align: center;
+      }
+      .chat-box {
+        height: 70%;
+        overflow-y: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .user-message {
+        margin-bottom: 12px;
+        margin-left: 50%;
+        margin-inline-start: auto;
+        max-width: 60%;
+      }
+      .bot-message {
+        margin-bottom: 12px;
+        max-width: 60%;
+        background-color: rgb(187, 187, 187);
+      }
+      .message {
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: fit-content;
+        min-width: 20%;
+        word-wrap: break-word;
+        border-radius: 5px;
+      }
+      .user {
+        font-weight: bold;
+        color: #2a9d8f;
+      }
+      .bot {
+        font-weight: bold;
+        color: #264653;
+      }
+      .input-container {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+      }
+      #userInput {
+        flex: 1;
+        padding: 10px;
+        font-size: 1rem;
+        border-style: solid;
+        border-radius: 5px;
+        width: 80%;
+      }
+      .send-button{
+        border-radius: 5px;
+      }
+      button {
+        padding: 10px 15px;
+        background-color: #2a9d8f;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #21867a;
+      }
+      @media (max-width: 480px)  {
+        
+        .chat-container{
+          width: 80%;
+          height: 90vh;
+          margin: 5px auto;
+          display: flex;
+          flex-direction: column;
+        }
+        .send-button{
+          width: 100%;
+        }
+        .message{
+          font-size: 13px;
+          padding: 5px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h2>EcoWISE - Ask for Sustainable Product Recommendations 🌱</h2>
+      <div class="chat-box" id="chatBox">
+        
+      </div>
+      <div class="input-container">
+        <input
+          class="message-box"
+          type="text"
+          id="userInput"
+          placeholder="Ask for a product..."
+        />
+        <button class="send-button" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <script>
+      async function sendMessage() {
+        const userInput = document.getElementById("userInput").value.trim();
+        if (!userInput) return;
+
+        // Display user message
+        const chatBox = document.getElementById("chatBox");
+        chatBox.innerHTML += `<div class="user-message message"><span class="user">You:</span> ${userInput}</div>`;
+        document.getElementById("userInput").value = "";
+
+        try {
+          const response = await fetch("/eco_recommend_llm", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ input: userInput }),
+          });
+
+          const data = await response.json();
+
+          if (data.error) {
+            chatBox.innerHTML += `<div class="bot-message message"><span class="bot">EcoWISE:</span> Error: ${data.error}</div>`;
+          } else {
+            const products = data.combo.map((p) => `- ${p.name}`).join("<br>");
+            chatBox.innerHTML += `<div class="bot-message message"><span class="bot">EcoWISE:</span><br><strong>Recommended Products:</strong><br>${products}<br><br><strong>Why?</strong> ${data.explanation}</div>`;
+          }
+        } catch (error) {
+          chatBox.innerHTML += `<div class="bot-message message"><span class="bot">EcoWISE:</span> Failed to fetch response.</div>`;
+          console.error(error);
+        }
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+    </script>
+  </body>
+</html>
